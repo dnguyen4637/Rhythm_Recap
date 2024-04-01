@@ -27,7 +27,7 @@ import okhttp3.Response;
 public class MainActivity extends AppCompatActivity {
 
     public static final String CLIENT_ID = "edd6322503f640c1a8514e901e175453";
-    public static final String REDIRECT_URI = "SPOTIFY-SDK://auth";
+    public static final String REDIRECT_URI = "com.example.spotifyencore://auth";
 
     public static final int AUTH_TOKEN_REQUEST_CODE = 0;
     public static final int AUTH_CODE_REQUEST_CODE = 1;
@@ -38,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
 
     private TextView tokenTextView, codeTextView, profileTextView;
 
+    /*
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -68,6 +69,8 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+     */
 
     /**
      * Get token from Spotify
