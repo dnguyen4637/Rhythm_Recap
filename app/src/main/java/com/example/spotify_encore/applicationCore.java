@@ -12,6 +12,7 @@ public class applicationCore extends AppCompatActivity {
         setContentView(R.layout.login);
 
 
+
     }
 
 }
