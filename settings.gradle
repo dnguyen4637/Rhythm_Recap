@@ -13,5 +13,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Spotify_Encore"
+rootProject.name = "RhythmRecap"
 include ':app'
