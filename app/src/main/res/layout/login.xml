@@ -106,10 +106,14 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="32dp"
             android:paddingLeft="200px"
-            android:text="Don't Remember Password?"
+            android:text="Don't have an account?"
             android:textColor="@color/white"
             android:textSize="16sp"
             />
+
+
+
+
 
 
     </LinearLayout>
@@ -126,16 +130,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView4"/>
 
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Don't have an Account? SignUp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/linearLayout2"
-        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

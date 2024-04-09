@@ -17,6 +17,13 @@
             android:name=".signIn" />
         <activity
             android:name=".login"/>
+
+        <activity
+            android:name=".SignupActivity"
+            android:exported="true" />
+
+
+
         <activity
             android:name=".applicationCore"
             android:exported="true"
@@ -31,8 +38,10 @@
 
                 <data android:host="auth" android:scheme="com.example.spotifyencore" />
             </intent-filter>
-
         </activity>
+
+
+
     </application>
 
 </manifest>
