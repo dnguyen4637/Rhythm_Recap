@@ -1,7 +1,6 @@
 package com.example.spotify_encore;
 import android.net.Uri;
 import android.util.Log;
-import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -209,7 +208,7 @@ public class applicationCore extends AppCompatActivity {
 
 
     public void userSignUp(View view) {
-        Intent sign = new Intent(this, signIn.class);
+        Intent sign = new Intent(this, signUp.class);
         startActivity(sign);
     }
 

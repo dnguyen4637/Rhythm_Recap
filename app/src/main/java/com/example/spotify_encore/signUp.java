@@ -4,7 +4,7 @@ import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-public class signIn extends AppCompatActivity {
+public class signUp extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

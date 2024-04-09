@@ -87,6 +87,16 @@
             android:textSize="20sp"
             android:textStyle="bold" />
 
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:paddingLeft="200px"
+            android:text="Don't have an account?"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/signUpButton"
             style="@android:style/Widget.Button"
@@ -99,21 +109,6 @@
             android:textSize="20sp"
             android:onClick="userSignUp"
             android:textStyle="bold" />
-
-        <TextView
-            android:id="@+id/textView3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="32dp"
-            android:paddingLeft="200px"
-            android:text="Don't have an account?"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-            />
-
-
-
-
 
 
     </LinearLayout>
