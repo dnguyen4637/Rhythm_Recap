@@ -1,6 +1,8 @@
 package com.example.spotify_encore;
 
-public class login {
+import androidx.appcompat.app.AppCompatActivity;
+
+public class login extends AppCompatActivity {
 
 
 
